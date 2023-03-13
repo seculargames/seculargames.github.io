@@ -2,5 +2,8 @@
 
 source "https://rubygems.org"
 
+gem "jekyll-coffeescript"
+gem "jekyll-sass-converter"
+
 gemspec
 
