@@ -1,0 +1,25 @@
+---
+layout: page
+title: Coffee n Games Part 1
+subtitle: Working with CoffeeScript and CreateJS
+js: 
+  - /assets/js/coffee1.js
+  - /assets/js/createjs.min.js
+
+permalink: /experiments/coffee1/
+---
+
+<style>
+canvas {
+    background: #aaa;
+}
+</style>
+<div class="form-group col-md-3">
+    <label for="type">Y Movement:</label>
+    <select id="type" name="type" class="form-control">
+        <option value="sin">Sin</option>
+        <option value="random">Random</option>
+    </select>
+</div>
+<canvas id="game" width="800" height="600">
+</canvas>
